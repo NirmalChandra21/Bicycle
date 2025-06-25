@@ -1,9 +1,9 @@
 import * as THREE from 'three'
 import GSAP from 'gsap'
 import { EventEmitter } from 'events'
-import convert from './Utils/convertDivsToSpans'
+import convert from './Utils/convertDivsToSpans.js'
 
-import Experience from "./Experience"
+import Experience from "./Experience.js"
 
 export default class Preloader extends EventEmitter {
   constructor() {
